@@ -10,7 +10,7 @@
 #include "SPI.h"
 
 #include <SoftwareSerial.h>
-SoftwareSerial pmsSerial(16, 17);
+SoftwareSerial pmsSerial(17, 16);//16,17
 
 // The used commands use up to 48 bytes. On some Arduino's the default buffer
 // space is not large enough
